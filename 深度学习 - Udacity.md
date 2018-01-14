@@ -1,5 +1,5 @@
-# Neural Network 入门
-## Anaconda
+# 一、Neural Network 入门
+## 1. Anaconda
 ### 保存和加载环境
 - `conda env export > environment.yaml` 将包保存为 [YAML](http://www.yaml.org/)
 	- 其中，命令的第一部分 `conda env export` 用于输出环境中的所有包的名称（包括 Python 版本）。
@@ -9,9 +9,8 @@
 
 - 如果你不再使用某些环境，可以使用 `conda env remove -n env_name` 删除指定的环境（在这里名为 `env_name`）。
 
----
 
-## Jupyter Notebook
+## 2. Jupyter Notebook
 
 ### 在Markdown和代码间相互切换
 
@@ -34,8 +33,8 @@
 - 要直接在 notebook 中呈现图形，应将通过命令 `%matplotlib inline` 内联后端一起使用。
 - 在分辨率较高的屏幕（例如 Retina 显示屏）上，notebook 中的默认图像可能会显得模糊。可以在 `%matplotlib inline` 之后使用 `%config InlineBackend.figure_format = 'retina'` 来呈现分辨率较高的图像。
 
-## Linear Regression
-
+## 3. Linear Regression
+- [Linear Regression demo](https://github.com/Coder-AndyLee/Deep-Learning/blob/master/code/LinearRegression/LinearRegression.ipynb)
 
 
 
